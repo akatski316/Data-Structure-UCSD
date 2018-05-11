@@ -54,7 +54,7 @@ public class tree_orders {
 			{
 				System.out.print(this.key[dummy.get(dummy.size() - 1)]+" ");
 
-				if(this.right[dummy.get(dummy.size() - 1)] != 0)
+				if(this.right[dummy.get(dummy.size() - 1)] != -1)
 					this.inOrder(this.right[dummy.get(dummy.size() - 1)]);
 
 				dummy.remove(dummy.size() - 1);
